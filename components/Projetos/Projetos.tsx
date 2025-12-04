@@ -3,62 +3,62 @@ import {Card,CardContent,CardHeader,CardTitle} from '@/components/ui/card';
 import{Button} from '@/components/ui/button';
 import {Badge} from '@/components/ui/badge';
 import { ExternalLink, Github, Eye } from 'lucide-react';
+
+
 export default function Progetos(){
-const progetos =[{
-    title:"E- comerce Platform",
-    description :'plataforma de e-comerce com painel administrativo,sistema de pagamentoe analyutisc em tempo real',
-    imagem:"https;//images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&fit=crop",
-    techologies:["React" , "mode.js","PostgreSQL",'Stripe',"AWS"],
-    github: "#",
-    demo:"#",
-    Featured:true
-
-},
-{
-    title:"E- comerce Platform",
-    description :'plataforma de e-comerce com painel administrativo,sistema de pagamentoe analyutisc em tempo real',
-    imagem:"https;//images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&fit=crop",
-    techologies:["React" , "mode.js","PostgreSQL",'Stripe',"AWS"],
-    github: "#",
-    demo:"#",
-    Featured:true
-
-},
-{
-    title:"E- comerce Platform",
-    description :'plataforma de e-comerce com painel administrativo,sistema de pagamentoe analyutisc em tempo real',
-    imagem:"https;//images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&fit=crop",
-    techologies:["React" , "mode.js","PostgreSQL",'Stripe',"AWS"],
-    github: "#",
-    demo:"#",
-    Featured:false
-
-},
-{
-    title:"E- comerce Platform",
-    description :'plataforma de e-comerce com painel administrativo,sistema de pagamentoe analyutisc em tempo real',
-    imagem:"https;//images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&fit=crop",
-    techologies:["React" , "mode.js","PostgreSQL",'Stripe',"AWS"],
-    github: "#",
-    demo:"#",
-    Featured:false
-
-},
-{
-    title:"E- comerce Platform",
-    description :'plataforma de e-comerce com painel administrativo,sistema de pagamentoe analyutisc em tempo real',
-    imagem:"https;//images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&fit=crop",
-    techologies:["React" , "mode.js","PostgreSQL",'Stripe',"AWS"],
-    github: "#",
-    demo:"#",
-    Featured:false
-
+const projetos = [
+  {
+    title: "Sistema de Gestão de Clientes e Serviços",
+    description: "Aplicação web moderna para cadastro de clientes, controle de serviços e peças utilizadas. Desenvolvida inicialmente com JavaScript e Node.js. Futuras melhorias incluem Express, EJS e MongoDB.",
+    imagem: "/projeto1.png",
+    techologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+    github: "https://github.com/DevDaviDias/Gestor-De-Servicos",
+    demo: "https://devdavidias.github.io/Gestor-De-Servicos/",
+    Featured: true
+  },
+ {
+  title: "Dashboard de Criptomoedas",
+  description: "Um dashboard interativo que exibe preços em tempo real, variação das últimas 24 horas e gráficos dos últimos 7 dias de diversas criptomoedas. Atualização automática e interface moderna e responsiva.",
+  imagem: "/cripto.jpg", 
+  techologies: ["HTML5", "CSS3", "JavaScript", "Chart.js", "API CoinGecko"],
+  github: "https://github.com/DevDaviDias/meu-crypto-dashboard",
+  demo: "https://devdavidias.github.io/meu-crypto-dashboard/",
+  Featured: true
 }
-
+,
+  {
+    title: "Aplicação de Adoção de Pets",
+    description: "Um site interativo onde usuários podem cadastrar pets para adoção, visualizar animais disponíveis e entrar em contato com os responsáveis.",
+    imagem: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500&fit=crop",
+    techologies: ["React", "Firebase", "Tailwind", "Node.js"],
+    github: "#",
+    demo: "#",
+    Featured: false
+  },
+  {
+  title: "Meteora – Loja de Moda Responsiva",
+  description:
+    "Loja fictícia de moda desenvolvida como meu primeiro projeto com Bootstrap. O site conta com carrossel responsivo, categorias de produtos, pesquisa, newsletter e design moderno baseado em componentes do framework.",
+  imagem: "/meteora.png", 
+  techologies: ["HTML5", "CSS3", "Bootstrap 5", "JavaScript"],
+  github: "https://github.com/DevDaviDias/Meteora",
+  demo: "https://devdavidias.github.io/Meteora/",
+  Featured: false
+}
+,
+  {
+    title: "Landing Page para Cafeteria",
+    description: "Landing page moderna e responsiva criada para uma cafeteria fictícia, focada em conversão e experiência visual.",
+    imagem: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&fit=crop",
+    techologies: ["HTML", "CSS", "JavaScript", "GSAP"],
+    github: "#",
+    demo: "#",
+    Featured: false
+  }
 ];
 
-const FeaturedProjects = progetos.filter(p => p.Featured);
-const FeaturedOuthers = progetos.filter(p => !p.Featured);
+const FeaturedProjects = projetos.filter(p => p.Featured);
+const FeaturedOuthers = projetos.filter(p => !p.Featured);
 
 return (
   <section id="projects" className="py-20 bg-gradient-to-br from-slate-50 to-blue-50 md:ml-[22em]">
@@ -72,7 +72,7 @@ return (
       >
 
         <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">
-          Projects
+         Meus Projetos
         </h2>
         <div className="w-24 h-1 bg-gradient-to-r from-purple-600 to-blue-600 mx-auto mb-4"></div>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto">

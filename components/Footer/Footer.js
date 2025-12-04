@@ -3,7 +3,7 @@ import style from "@/components/Footer/Footer.module.css"
 function Footer() {
   return (
     <div>
-      <p className="text-4xl font-bold text-blue-500">
+      <p className="text-4xl font-bold text-blue-500 md:ml-[22em]">
         Em construção ...🧑‍🔧🔧
       </p>
     
