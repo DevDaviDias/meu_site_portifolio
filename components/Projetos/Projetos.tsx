@@ -31,14 +31,14 @@ const PROJETOS_DATA: Projeto[] = [
     featured: true
   },
   {
-    title: 'Sistema de Gestão de Clientes',
-    description:
-      'Aplicação web moderna para cadastro de clientes, controle de serviços e peças utilizadas. Desenvolvida com React, Node.js, PostgreSQL e Stripe.',
-    imagem: '/projeto1.png',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
-    github: 'https://github.com/DevDaviDias/Gestor-De-Servicos',
-    demo: 'https://devdavidias.github.io/Gestor-De-Servicos/',
-    featured: true
+    title: 'Gestor de Serviços',
+description:
+  'Aplicação web para gestão de clientes e serviços, com cadastro de clientes, controle de serviços, peças utilizadas, fotos, geração de relatórios em PDF e fechamento automático do mês.',
+imagem: '/projeto1.png',
+technologies: ['JavaScript', 'Firebase', 'Vite', 'PWA', 'jsPDF'],
+github: 'https://github.com/DevDaviDias/Gestor-De-Servicos',
+demo: 'https://gestor-de-servicos.vercel.app',
+featured: true
   },
   {
     title: 'EMTI.dev – Plataforma de Ensino em TI',
